@@ -1,0 +1,120 @@
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    }
+    
+    .custom-nav .custom-nav-item a {
+        color: #fff !important;
+    }
+    .custom-nav-item:hover{
+        background-color: red;
+        border: solid red 1px;
+        border-radius: 10px;
+    }
+    .remove-vid-marg{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .vid-parent{
+        position: relative;
+    }
+    video{
+        width: 100%;
+        height: 100%;
+    }
+    .vid-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: gray;
+        z-index: 1; 
+        opacity: 0.8;
+    }
+    .vid-content{
+        position: absolute;
+        z-index: 2;
+        top: 35%;
+        left: 35%;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .bottom-banner{
+        color: #fff;
+        padding: 10px;
+    }
+    .card-textt {
+        color: gray;
+        font-size: small;
+        font-weight: bold;
+        
+    }
+    .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        background-color: rgb(232, 223, 223);
+        border-radius: 50px;
+        font-size:medium;
+      }
+    .card-text {
+        color: black;
+        font-weight: bold;
+    }
+    .stripe {
+        background-image: linear-gradient(240deg, #5b8bbc, #93291e);
+        padding: 3rem;
+        height: 13rem;
+        margin-top: 4rem;
+        transform: rotate(10deg);
+        z-index: -5;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (min-width: 0px) and (max-width: 700px) {
+        .my-content,
+        .txt-banner,
+        .stripe {
+            display: none;
+        }
+        .vid-content {
+            top: 12%;
+            left: 60%;
+        }
+        .custom-nav .custom-nav-item a{
+            padding: 10px 20px;
+            background-color: gray;
+        }
+        .custom-nav-item:hover{
+            background-color: none;
+            border: none;
+            border-radius: none;
+        }
+    }
+    
